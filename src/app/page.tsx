@@ -47,7 +47,7 @@ export default function Home() {
           </div>
           <p className="max-w-2xl mx-auto text-orange-700">
             Je suis un développeur web expérimenté, spécialisé dans la création de sites web modernes et performants. 
-            Que vous ayez besoin d'un site vitrine élégant, d'une plateforme e-commerce robuste ou d'une application web sur mesure, 
+            Que vous ayez besoin d&apos;un site vitrine élégant, d&apos;une plateforme e-commerce robuste ou d&apos;une application web sur mesure, 
             je suis là pour donner vie à votre projet.
           </p>
         </div>

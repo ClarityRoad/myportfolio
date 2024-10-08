@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from 'react'
-import { Check, ShoppingCart, Calendar, Users, FileText, Globe, Share2, Mail, MessageCircle, X, Zap, Brain, Bot, ArrowLeft } from 'lucide-react'
+import { Check, ShoppingCart, Calendar, Users, FileText, Globe, Share2, Mail, MessageCircle, Zap, Brain, Bot, ArrowLeft } from 'lucide-react'
 
 export default function Builder() {
   const [step, setStep] = useState(1)
@@ -60,7 +60,7 @@ export default function Builder() {
         return (
           <div className="bg-white p-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-bold mb-2 text-teal-800">Choisissez le type de site</h2>
-            <p className="text-teal-600 mb-4">Sélectionnez l'option qui correspond le mieux à vos besoins</p>
+            <p className="text-teal-600 mb-4">Sélectionnez l&apos;option qui correspond le mieux à vos besoins</p>
             <div className="space-y-4">
               {[
                 { type: 'Vitrine', description: 'Parfait pour présenter votre entreprise ou vos services' },
@@ -91,7 +91,7 @@ export default function Builder() {
                 >
                   <span className="font-semibold mr-2 text-teal-700">Start</span>
                   <span className="text-teal-600">(499€)</span>
-                  <p className="text-sm text-teal-600 mt-2">Pack de base pour les petites entreprises, comprenant un design responsive et jusqu'à 5 pages.</p>
+                  <p className="text-sm text-teal-600 mt-2">Pack de base pour les petites entreprises, comprenant un design responsive et jusqu&apos;à 5 pages.</p>
                 </button>
                 <button
                   onClick={() => handleSelection('pack', 'Pro')}
@@ -200,7 +200,7 @@ export default function Builder() {
                 ))}
               </div>
               <p className="mt-6 text-sm text-teal-600">
-                Tous nos plans incluent un engagement sur la durée choisie. Vous bénéficiez de tarifs avantageux et d'un suivi régulier de votre site. Plus la durée est longue, plus le tarif mensuel est avantageux.
+                Tous nos plans incluent un engagement sur la durée choisie. Vous bénéficiez de tarifs avantageux et d&apos;un suivi régulier de votre site. Plus la durée est longue, plus le tarif mensuel est avantageux.
               </p>
             </div>
           )

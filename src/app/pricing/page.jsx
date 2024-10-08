@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import { Check, ShoppingCart, Calendar, Users, FileText, Globe, Share2, Mail, MessageCircle, X, Zap, Brain, Bot } from 'lucide-react'
 
-export default function pricing() {
+export default function Pricing() {
   const [selectedModules, setSelectedModules] = useState([])
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [selectedPack, setSelectedPack] = useState('')
@@ -137,7 +137,7 @@ export default function pricing() {
                       </li>
                       <li className="flex items-center">
                         <Check className="mr-2 h-4 w-4 text-green-500" />
-                        Jusqu'à 5 pages
+                        Jusqu&apos;à 5 pages
                       </li>
                       <li className="flex items-center">
                         <Check className="mr-2 h-4 w-4 text-green-500" />
@@ -164,7 +164,7 @@ export default function pricing() {
                       </li>
                       <li className="flex items-center">
                         <Check className="mr-2 h-4 w-4 text-green-500" />
-                        Jusqu'à 10 pages
+                        Jusqu&apos;à 10 pages
                       </li>
                       <li className="flex items-center">
                         <Check className="mr-2 h-4 w-4 text-green-500" />
@@ -354,8 +354,8 @@ export default function pricing() {
 
         <div className="mt-8 text-center">
           <p className="text-gray-600">
-            Tous nos plans d'abonnement incluent un engagement sur la durée choisie. 
-            Vous bénéficiez de tarifs avantageux et d'un suivi régulier de votre site.
+            Tous nos plans d&apos;abonnement incluent un engagement sur la durée choisie. 
+            Vous bénéficiez de tarifs avantageux et d&apos;un suivi régulier de votre site.
           </p>
         </div>
       </section>
