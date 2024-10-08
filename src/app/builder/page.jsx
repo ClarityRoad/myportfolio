@@ -259,7 +259,7 @@ export default function Builder() {
   }
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-black">
     <nav className="bg-blue-600 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="flex items-center space-x-2 text-xl font-bold">
