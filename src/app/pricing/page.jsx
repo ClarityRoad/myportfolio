@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react'
-import { Check, ShoppingCart, Calendar, Users, FileText, Globe, Share2, Mail, MessageCircle, X, Zap, Brain, Bot } from 'lucide-react'
-
+import { Home,Check, ShoppingCart, Calendar, Users, FileText, Globe, Share2, Mail, MessageCircle, X, Zap, Brain, Bot } from 'lucide-react'
+import Link from 'next/link'
 export default function Pricing() {
   const [selectedModules, setSelectedModules] = useState([])
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -40,8 +40,18 @@ export default function Pricing() {
   ]
 
   return (
+    <div className="min-h-screen">
+    <nav className="bg-blue-600 text-white p-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <Link href="/" className="flex items-center space-x-2 text-xl font-bold">
+          <Home className="h-6 w-6" />
+          <span>Accueil</span>
+        </Link>
+        <h1 className="text-2xl font-bold">Mes Offres</h1>
+      </div>
+    </nav>
     <div className="container mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold text-center mb-16">Mes Offres</h1>
+    
 
       <section className="mb-16">
         <h2 className="text-3xl font-semibold text-center mb-8">Sites WordPress</h2>
@@ -393,6 +403,7 @@ export default function Pricing() {
           </div>
         </div>
       )}
+    </div>
     </div>
   )
 }
